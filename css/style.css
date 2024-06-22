@@ -1,0 +1,24 @@
+:root {
+	--color-hero: #1b72e8;
+	--color-main: #f8f9fa;
+	--color-nav: #142b40;
+}
+
+.f-d-container {
+    display: flex;
+    padding: 20px;
+}
+
+.f-d-left-side {
+    width: calc(30% - 20px);
+    height: 1000px;
+}
+
+.f-d-right-side {
+    width: calc(70% - 20px);
+    height: 1000px;
+}
+
+.f-d-bg-left {
+    background-color: var(--color-hero);
+}
